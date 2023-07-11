@@ -21,7 +21,7 @@ def disp_rows(db):
     for i in cursor:
         print(dict(i))
 def main():
-    db = sqlite3.connect('crud.db')
+    db = sqlite3.connect('databases/crud.db')
     db.row_factory = sqlite3.Row
     print('CREATE TABLE NAMED TEST')
     db.execute('drop table if exists test')

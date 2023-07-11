@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/c/Users/DELL/AppData/Local/Programs/Python/Python311/python
 
 def isprime(n):
     if n==1:
